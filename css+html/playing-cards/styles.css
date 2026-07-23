@@ -1,0 +1,48 @@
+body {
+  background-color: pink;
+}
+#playing-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.left {
+  display: flex;
+  height: 200px;
+  width: 100px;
+  color: black;
+  background-color: white;
+  align-self: flex-start;
+}
+h1 {
+  font-size: 100px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+.right {
+  display: flex;
+  height: 200px;
+  width: 100px;
+  color: blue;
+  background-color: white;
+  align-self: flex-end;
+}
+.middle {
+  display: flex;
+  height: 200px;
+  width: 100px;
+  color: red;
+  background-color: white;
+  align-self: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}

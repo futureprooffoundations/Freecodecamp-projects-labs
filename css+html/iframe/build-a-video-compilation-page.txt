@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>abdullah video</h1>
+        <p>a little bit to show abdullah's work</p>
+        <section>
+            <h2> video one</h2>
+            <p> abdullah demonestrating his talents</p>
+            <iframe src="https://www.youtube.com/embed?v=m9hE3tjooBM" title="abdullah"
+width="340"
+height="250"
+allowfullscreen></iframe>
+        </section>
+              <section>
+            <h2> video two</h2>
+            <p> abdullah demonestrating his talents</p>
+            <iframe src="https://www.youtube.com/embed?v=RjaLZVsJqKs&t=1s" title="abdullah"
+width="540"
+height="250"
+allowfullscreen></iframe>
+        </section>
+              <section>
+            <h2> video three</h2>
+            <p> abdullah demonestrating his talents</p>
+            <iframe src="https://www.youtube.com/embed?v=Cy6IeNL8ty8" title="abdullah"
+width="340"
+height="250"
+allowfullscreen></iframe>
+        </section>
+
+</body>
+
+</html>

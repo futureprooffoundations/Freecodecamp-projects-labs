@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>abdullah video</h1>
+        <p>a little bit to show abdullah's work</p>
+        <section>
+            <h2> video one</h2>
+            <p> abdullah demonestrating his talents</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fAjTIbc5Wtw?si=53D2Oeo9kYTeBYtt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+              <section>
+            <h2> video two</h2>
+            <p> abdullah demonestrating his talents</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m9hE3tjooBM?si=EV-N3b1576ed23Oj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+              <section>
+            <h2> video three</h2>
+            <p> abdullah demonestrating his talents</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0SIeeWqZktA?si=NCEBw17Ws_FjSK-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+</body>
+
+</html>

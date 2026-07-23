@@ -1,0 +1,76 @@
+/* Rows with class "read" */
+tr[class=read] {
+  background-image: linear-gradient(to right, #4caf50, #81c784);
+}
+
+/* Rows with class "to-read" */
+tr[class=to-read] {
+  background-image: linear-gradient(to right, #2196f3, #64b5f6);
+}
+
+/* Rows with class "in-progress" */
+tr[class=in-progress] {
+  background-image: linear-gradient(to right, #ff9800, #ffb74d);
+}
+
+span {
+  display: inline-block;
+}
+tr[class=to-read] span[class=status] {
+  border: 2px solid #2196f3; 
+  background-image: linear-gradient(to right, #2196f3, #64b5f6);
+  color: white;       /* optional: make text readable */
+  padding: 4px 8px;   /* optional: add some spacing */
+  border-radius: 4px; /* optional: rounded edges */
+}
+tr[class=read] span[class=status] {
+  border: 2px solid #2196f3; 
+  background-image: linear-gradient(to right, #2196f3, #64b5f6);
+  color: white;       /* optional: make text readable */
+  padding: 4px 8px;   /* optional: add some spacing */
+  border-radius: 4px; /* optional: rounded edges */
+}
+tr[class=in-progress] span[class=status] {
+  border: 2px solid #2196f3; 
+  background-image: linear-gradient(to right, #2196f3, #64b5f6);
+  color: white;       /* optional: make text readable */
+  padding: 4px 8px;   /* optional: add some spacing */
+  border-radius: 4px; /* optional: rounded edges */
+}
+span[class^="rate"] > span {
+  border: 1px solid #333;   /* border */
+  border-radius: 50%;       /* makes them circular */
+  margin: 2px;              /* spacing between circles */
+  height: 15px;             /* size */
+  width: 15px;              /* size */
+  background-color: #ccc;   /* default gray */
+  display: inline-block;    /* ensure circles line up */
+}
+
+/* First descendant of spans with class containing "one" */
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(to right, #ff5722, #ff8a50);
+}
+
+/* First two descendants of spans with class containing "two" */
+span[class~="two"] > span:nth-child(-n+2) {
+  background-image: linear-gradient(to right, #2196f3, #64b5f6);
+}
+
+/* First three descendants of spans with class containing "three" */
+span[class~="three"] > span {
+  background-image: linear-gradient(to right, #4caf50, #81c784);
+}
+
+
+/* Combined attribute selector for status spans and rate spans */
+
+span[class=status], span[class^="rate"] {
+height: 1em;
+width: 23vw;
+padding: 0;
+}
+
+ thead {
+    justify-content: flex-start;
+ }

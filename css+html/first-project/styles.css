@@ -1,0 +1,44 @@
+.card {
+    width:400px;
+    text-align: center;
+    border: solid 10px;
+    border-color: rgb(94, 18, 18);
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size:  18px;
+    margin: 20px;
+    
+}
+
+body {
+    
+  margin: 0;
+  display: flex;                 /* enable flexbox */
+  justify-content: center;       /* center horizontally */
+  align-items: center;           /* center vertically */
+ background: linear-gradient(red, white);
+    color: rgb(128, 2, 2)
+}
+a {
+    text-decoration: none;
+}
+.me {
+    list-style: none;
+}
+.contact {
+    list-style: none;
+}
+
+
+a:visited {
+    color: rgb(223, 15, 15);
+}
+a:hover {
+color: rgb(150, 214, 54);
+}
+
+.m2 {
+    display: inline;
+    margin: 5px;
+}

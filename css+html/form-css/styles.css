@@ -1,0 +1,40 @@
+input:focus, textarea:focus  {
+  border-color: blue;
+}
+
+input:invalid, select:invalid,textarea:invalid {
+  border-color: red;
+}
+
+
+input:valid, select:valid,textarea:valid  {
+  border-color: green;
+}
+
+button:hover {
+  background: green;
+  color: white;
+}
+.radio-group input[type="radio"]:checked {
+  background-color: red;
+ box-shadow: 0 4px 8px gray;
+ border-color: green;
+}
+input[type="radio"]:checked + label {
+      color: crimson;
+      font-weight: bold;
+    }
+    input:first-of-type {
+      border-radius: 10px;
+    }
+.name {
+  display: block;
+}
+.email {
+  display: block;
+}
+body {
+  margin: auto;
+  height: 50vh;
+  width: 50vw;
+}

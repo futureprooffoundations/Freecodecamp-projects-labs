@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+<h1 id="title">Abdullah survey form</h1>
+<p id="description">How much do you care about Abdullah</p>
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" required placeholder="name">
+    
+   <label id="email-label" for="eamil">Email</label> <input id="email" type="email" required placeholder="email@email.com">
+    
+    <label id="number-label" for="number">Age:</label>
+    <input id="number" type="number" max="100" min="18" placeholder="age">  
+  </fieldset>
+
+  <fieldset>
+    <label for="dropdown">how much do you love Abdullah</label>
+    <select id="dropdown">
+      <option>not very</option>
+      <option selected>very much</option>
+      </select>
+  </fieldset>
+    
+  
+  
+    
+  <fieldset>
+    <label>dose Abdullah love you back:</label>
+    <label for="yes">Yes</label>
+    <input type="radio" id="yes" name="yes" value="yes">
+    <label for="yes">yes a little</label>
+    <input type="radio" name="yes" id="no" value="no">
+    <label for="almost">almost</label>
+    <input type="radio" name="almost" id="almost" value="almost">
+    <label for="almost">often</label>
+    <input type="radio" id="oft" name="almost" value="oft">
+</fieldset>
+  
+    
+<fieldset>
+  <label for="label">is abdullah cool:</label>
+  <label id="label" name="label" for="ok">yes</label>
+    <input id="ok" type="checkbox" value="yes">
+    <label for="no">no</label>
+    <input id="no" type="checkbox" value="no">
+</fieldset>
+ 
+    
+    
+      
+      <fieldset>
+        <label for="comments">Other Comments?</label>
+        <textarea cols="10" rows="3" name="comments" id="comments"></textarea>
+      </fieldset>
+      <button id="submit" type="submit">submit</button>
+        </form>
+  </body>
+</html>
