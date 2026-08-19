@@ -1,6 +1,6 @@
 function getIndexToIns(array, number){
   let sorted = array.sort((a, b) => a-b);
-  let lowestIndex = sorted.findIndex((i) =>  i >= number | 0);
+  let lowestIndex = sorted.findIndex((i) =>  i >= (number | 0));
   if (lowestIndex == -1){
     return sorted.length
   }
